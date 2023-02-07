@@ -43,8 +43,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    justify-items: center;
-    background: rgb(250, 203, 14);
+    align-items: stretch;
+    background: rgb(250, 203, 14);  
 }
 
 .nav-item,
@@ -53,6 +53,12 @@ header {
     font-size: 1.3rem;
     color: black;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
 }
 
 /* ---------- MAIN BODY ---------- */
